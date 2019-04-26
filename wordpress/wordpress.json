@@ -19,9 +19,12 @@
           "sudo anzipxzvf latest.zip",
           "suso rsync -avP ~/wordpress/ /var/www/html",
           "suso rsync -R apache:apache /var/www/html/*"
-        ],
+        ]
+        
+    },
+{
         "type": "file",
         "soure": "test_file",
         "sestination": "/tmp/test_file"
-    }]
+}]
 }
